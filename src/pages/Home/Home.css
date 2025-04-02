@@ -1,0 +1,243 @@
+.home {
+  width: 100%;
+}
+
+.hero {
+  background-color: #000080;
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.about-us {
+  padding: 4rem 2rem;
+  background-color: white;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content h2 {
+  color: #000080;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-content p {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.features {
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.features h2 {
+  text-align: center;
+  color: #000080;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+
+.feature-card h3 {
+  color: #000080;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.feature-link {
+  color: #000080;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 2px solid #000080;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.feature-link:hover {
+  background-color: #000080;
+  color: white;
+}
+
+.testimonials {
+  padding: 4rem 2rem;
+  background-color: white;
+}
+
+.testimonials h2 {
+  text-align: center;
+  color: #000080;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.testimonial-card p {
+  color: #444;
+  font-style: italic;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.testimonial-card h4 {
+  color: #000080;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-card span {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.team {
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.team h2 {
+  text-align: center;
+  color: #000080;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-member {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.team-member h4 {
+  color: #000080;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.team-member span {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .features h2,
+  .testimonials h2,
+  .team h2,
+  .about-content h2 {
+    font-size: 2rem;
+  }
+  
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}

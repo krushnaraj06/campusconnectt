@@ -1,0 +1,235 @@
+.pack-pal {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.pack-hero {
+  background-color: #000080;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.pack-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.pack-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.subscriptions {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subscriptions h2 {
+  color: #000080;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.plan-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.plan-icon {
+  color: #000080;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+}
+
+.plan-card h3 {
+  color: #000080;
+  margin-bottom: 1rem;
+}
+
+.plan-card p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.duration-selector {
+  margin-bottom: 1.5rem;
+}
+
+.duration-selector select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.subscribe-button {
+  background-color: #000080;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+  background-color: #000066;
+}
+
+.active-subscriptions {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.active-subscriptions h2 {
+  color: #000080;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.subscription-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.subscription-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.subscription-header h3 {
+  color: #000080;
+}
+
+.status-badge {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+}
+
+.subscription-details {
+  margin-bottom: 1rem;
+}
+
+.subscription-details p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.manage-button {
+  background-color: transparent;
+  color: #000080;
+  border: 1px solid #000080;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.manage-button:hover {
+  background-color: #000080;
+  color: white;
+}
+
+.reminders {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reminders h2 {
+  color: #000080;
+  margin-bottom: 2rem;
+}
+
+.reminder-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.reminder-icon {
+  color: #ffc107;
+  width: 24px;
+  height: 24px;
+}
+
+.reminder-content {
+  flex: 1;
+}
+
+.reminder-content h4 {
+  color: #000080;
+  margin-bottom: 0.25rem;
+}
+
+.reminder-content p {
+  color: #666;
+}
+
+.renew-button {
+  background-color: #000080;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.renew-button:hover {
+  background-color: #000066;
+}
+
+@media (max-width: 768px) {
+  .pack-hero h1 {
+    font-size: 2rem;
+  }
+
+  .reminder-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .reminder-content {
+    text-align: center;
+  }
+}
